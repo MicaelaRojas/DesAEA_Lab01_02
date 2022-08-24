@@ -30,8 +30,8 @@ namespace Lab01_02_2
             string direccion = txtDireccion.Text;
             string telefono = txtTelefono.Text;
             string email = txtEmail.Text;
-            string fecha = txtFecha.Text;
-            string departamento = txtDepartamento.Text;
+            string fecha = dtFecha.Text;
+            string departamento = cbDepartamento.Text;
 
 
             dgvUsuarios.Rows.Add("", dni, nombre, apellido, direccion, telefono, email, fecha, departamento);
